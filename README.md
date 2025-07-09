@@ -29,7 +29,31 @@ TEXT_THRESHOLD = 0.25
 
 ## 🛠️ Installation 
 
-TODO
+We provide two ways to install the requirements
+### Normal
+1. Use Python3.10 and create a venv 
+```
+sudo apt-get install python3.10-dev python3.10-venv
+git clone git@github.com:MaevaGuerrier/TimelapseFromPrompt.git
+
+cd TimelapseFromPrompt/
+python3.10 -m venv .venv 
+source .venv/bin/activate
+pip install --no-cache-dir --force-reinstall -r requirements.txt --verbose
+```
+
+2. Get weights from the groundingDino repository to run the inference 
+
+```
+cd TimelapseFromPrompt/
+mkdir weights/
+wget -q https://github.com/idea-research/groundingdino/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+```
+
+
+### Docker
+
+2. Build and use the dockerfile from the `Docker` folder
 
 
 ## ⭐ Troubleshooting
