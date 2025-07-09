@@ -1,5 +1,5 @@
 # TimelapseFromPrompt
-TimelapseFromPrompt is a tool for automatically generating object-centric timelapse videos using natural language prompts.
+TimelapseFromPrompt is a tool for automatically generating object-centric timelapse image using natural language prompts.
 
 ## 🔥 About
 
@@ -8,17 +8,13 @@ TimelapseFromPrompt is a tool for automatically generating object-centric timela
 - Input: A regular video recording of any scene (e.g., quadruped, animals, drone).
 
 - Step 1 – Frame Extraction: Uses ffmpeg to extract frames from the video.
-
 - Step 2 – Object Detection: Applies GroundingDINO to detect the object of interest based on a user-defined text prompt.
-
-- Step 3 – Timelapse Creation: Selects and compiles relevant frames into a focused timelapse video of the specified object.
+- Step 3 – Timelapse Creation: Selects and compiles relevant frames into a focused timelapse image of the specified object.
 
 ⚙️ Features
 
 - 💬 Prompt-based detection – Just describe what you want to track (e.g., "drone", "person walking", "red ball").
-
 - 🎞️ Frame interval control – Choose how often frames are sampled using frame_interval (default: 13).
-
 - 📦 Detection thresholds – Tune BOX_THRESHOLD and TEXT_THRESHOLD for controlling detection sensitivity:
 
 ```python
@@ -54,6 +50,12 @@ wget -q https://github.com/idea-research/groundingdino/releases/download/v0.1.0-
 ### Docker
 
 2. Build and use the dockerfile from the `Docker` folder
+
+
+### Generating the Timelapse
+
+
+
 
 
 ## ⭐ Troubleshooting
