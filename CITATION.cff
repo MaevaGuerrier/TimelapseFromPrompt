@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this tool, please cite it using the following metadata."
+title: "TimelapseFromPrompt: A Prompt-Based Tool for Object-Focused Timelapse Generation"
+authors:
+  - family-names: Guerrier
+    given-names: Maeva
+  - family-names: Soma
+    given-names: Karthik
+date-released: 2025-07-09
+version: "1.0.0"
+url: "https://github.com/MaevaGuerrier/TimelapseFromPrompt"
+repository-code: "https://github.com/MaevaGuerrier/TimelapseFromPrompt"
+license: MIT
+type: software
+abstract: "TimelapseFromPrompt is an open-source tool that generates object-centric timelapse videos from raw footage using prompt-based detection via GroundingDINO."
