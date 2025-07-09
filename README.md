@@ -1,7 +1,7 @@
 # TimelapseFromPrompt
 TimelapseFromPrompt is a tool for automatically generating object-centric timelapse videos using natural language prompts.
 
-## About
+## 🔥 About
 
 🔍 What it does
 
@@ -27,18 +27,30 @@ TEXT_THRESHOLD = 0.25
 ```
 🔁 Dynamic frame interval – Change frame interval mid-video to better highlight interesting segments.
 
-## Installation 
+## 🛠️ Installation 
 
 TODO
 
 
-## Troubleshooting
+## ⭐ Troubleshooting
 
 TODO
 
 # ✒️ Citation
 
 **TimelapseFromPrompt**
+
+```BibText
+@software{Guerrier_TimelapseFromPrompt_A_Prompt-Based_2025,
+author = {Guerrier, Maeva and Soma, Karthik},
+license = {MIT},
+month = jul,
+title = {{TimelapseFromPrompt: A Prompt-Based Tool for Object-Focused Timelapse Generation}},
+url = {https://github.com/MaevaGuerrier/TimelapseFromPrompt},
+version = {1.0.0},
+year = {2025}
+}
+```
 
 **Grounding dino**
 
