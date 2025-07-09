@@ -25,7 +25,7 @@ TimelapseFromPrompt is a tool for automatically generating object-centric timela
 BOX_THRESHOLD = 0.35
 TEXT_THRESHOLD = 0.25
 ```
-🔁 Dynamic frame interval – Change frame interval mid-video to better highlight interesting segments.
+- 🔁 Dynamic frame interval – Change frame interval mid-video to better highlight interesting segments.
 
 ## 🛠️ Installation 
 
