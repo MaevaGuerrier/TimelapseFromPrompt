@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timelapseprompt"
+version = "0.1.0"
+description = "My project that uses GroundingDINO"
+authors = [{ name = "Maeva Guerrier", email = "maeva.guerrier@polymtl.ca" }, {name = "Karthik Soma", email = "soma.nitt@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+dependencies = [
+    "ffmpeg-python",
+    "groundingdino @ git+https://github.com/IDEA-Research/GroundingDINO.git@main",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

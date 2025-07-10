@@ -30,12 +30,14 @@ We provide two ways to install the requirements
 1. Use Python3.10 and create a venv 
 ```
 sudo apt-get install python3.10-dev python3.10-venv
+
 git clone git@github.com:MaevaGuerrier/TimelapseFromPrompt.git
 
 cd TimelapseFromPrompt/
 python3.10 -m venv .venv 
 source .venv/bin/activate
-pip install --no-cache-dir --force-reinstall -r requirements.txt --verbose
+pip install torch==2.5.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121  
+pip install -e .
 ```
 
 2. Get weights from the groundingDino repository to run the inference 

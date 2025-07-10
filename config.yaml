@@ -1,0 +1,8 @@
+limo_sac:
+  video_dir: videos/limo_sac.mp4
+  frame_interval_begin: 4
+  frame_interval_end: 4
+  box_threshold: 0.35
+  text_threshold: 0.25
+  fps: 3
+  prompt: "toy"

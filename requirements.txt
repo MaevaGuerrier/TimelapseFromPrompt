@@ -2,5 +2,5 @@ setuptools
 wheel
 --extra-index-url https://download.pytorch.org/whl/cu121
 torch==2.5.1+cu121 
-
-git+https://github.com/IDEA-Research/GroundingDINO.git#egg=groundingdino
+ffmpeg-python
+git+https://github.com/IDEA-Research/GroundingDINO.git@v0.1.0
