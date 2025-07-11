@@ -13,6 +13,8 @@ license = "MIT"
 
 dependencies = [
     "ffmpeg-python",
+    "scipy",
+    "segment_anything @ git+https://github.com/facebookresearch/segment-anything.git",
     "groundingdino @ git+https://github.com/IDEA-Research/GroundingDINO.git@main",
 ]
 

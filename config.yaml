@@ -1,8 +1,29 @@
-limo_sac:
-  video_dir: videos/limo_sac.mp4
-  frame_interval_begin: 4
-  frame_interval_end: 4
+# limo_sac:
+#   video_dir: videos/limo_sac.mp4
+#   frame_interval_begin: 4
+#   frame_interval_end: 4
+#   box_threshold: 0.35
+#   text_threshold: 0.25
+#   fps: 3
+#   prompt: "toy"
+
+
+# drone_sac:
+#   video_dir: videos/drone_sac.mp4
+#   frame_interval_begin: 4
+#   frame_interval_end: 4
+#   box_threshold: 0.35
+#   text_threshold: 0.25
+#   fps: 3
+#   prompt: "cognifly inside black crates"
+#   token_spans: '[[[0,8]],]'
+
+drone_sac_cbf:
+  video_dir: videos/drone_sac_cbf.mp4
+  frame_interval_begin: 2
+  frame_interval_end: 2
   box_threshold: 0.35
   text_threshold: 0.25
   fps: 3
-  prompt: "toy"
+  prompt: "cognifly inside black crates"
+  token_spans: '[[[0,8]],]'
